@@ -1,8 +1,6 @@
 name: release
 # Push a tag v*.*.* to publish. PyPI and npm both use trusted publishing
 # (OIDC from this workflow), so no token is stored anywhere.
-# npm is a *staged* publish: it waits on npmjs.com until a maintainer approves
-# it with their passkey (`npm stage list`, then `npm stage approve <id>`).
 on:
   push:
     tags: ["v*.*.*"]
@@ -31,5 +29,5 @@ jobs:
         with:
           node-version: "24"
           registry-url: "https://registry.npmjs.org"
-      - run: npm install -g npm@latest   # staged publishing needs a current npm
-      - run: npm test && npm stage publish .
+      - run: npm install -g npm@latest   # trusted publishing needs a current npm
+      - run: npm test && npm publish --access public
