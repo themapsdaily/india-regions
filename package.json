@@ -14,7 +14,7 @@
     "test": "node --test tests/test_cases.mjs"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": ["india", "states", "districts", "lgd", "census", "geography", "data-cleaning", "fuzzy-matching"],
   "author": "TheMapsDaily",

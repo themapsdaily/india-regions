@@ -7,13 +7,18 @@ name = "india-regions"
 version = "0.1.0"
 description = "India's states and districts through time: which existed in which year, LGD/Census codes, and matching for messy or misspelt names."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT (code), CC-BY-4.0 (data)" }
 authors = [{ name = "TheMapsDaily" }]
 keywords = ["india", "states", "districts", "lgd", "census", "geography", "data-cleaning", "fuzzy-matching"]
 classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
   "Topic :: Scientific/Engineering :: GIS",
   "Intended Audience :: Science/Research",
 ]
