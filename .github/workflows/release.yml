@@ -1,6 +1,6 @@
 name: release
-# Push a tag v*.*.* to publish. PyPI uses Trusted Publishing (no token);
-# npm uses the NPM_TOKEN repo secret.
+# Push a tag v*.*.* to publish. PyPI and npm both use trusted publishing
+# (OIDC from this workflow), so no token is stored anywhere.
 on:
   push:
     tags: ["v*.*.*"]
@@ -27,6 +27,5 @@ jobs:
         with:
           node-version: "24"
           registry-url: "https://registry.npmjs.org"
-      - run: npm test && npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm install -g npm@latest   # trusted publishing needs npm 11.5.1+
+      - run: npm test && npm publish --access public
