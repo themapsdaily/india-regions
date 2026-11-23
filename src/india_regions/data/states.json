@@ -1,0 +1,838 @@
+{
+ "version": "2026-11-23",
+ "source": "https://themapsdaily.com",
+ "licence": "CC-BY-4.0",
+ "states": [
+  {
+   "id": "ajmer",
+   "name": "Ajmer",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1955
+  },
+  {
+   "id": "ajmer-merwara",
+   "name": "Ajmer Merwara Province",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "andaman-nicobar",
+   "name": "Andaman and Nicobar Islands",
+   "type": "State/UT",
+   "code": "AN",
+   "first_year": 1947,
+   "last_year": null
+  },
+  {
+   "id": "andhra",
+   "name": "Andhra",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1953,
+   "last_year": 1955
+  },
+  {
+   "id": "andhra-pradesh",
+   "name": "Andhra Pradesh",
+   "type": "State/UT",
+   "code": "AP",
+   "first_year": 1956,
+   "last_year": null
+  },
+  {
+   "id": "arunachal-pradesh",
+   "name": "Arunachal Pradesh",
+   "type": "State/UT",
+   "code": "AR",
+   "first_year": 1972,
+   "last_year": null
+  },
+  {
+   "id": "assam",
+   "name": "Assam",
+   "type": "State/UT",
+   "code": "AS",
+   "first_year": 1947,
+   "last_year": null
+  },
+  {
+   "id": "baghelkhand-bundelkhand",
+   "name": "Baghelkhand and Bundelkhand States Union",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "bhopal-princely-state",
+   "name": "Bhopal Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "bhopal-state",
+   "name": "Bhopal",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1949,
+   "last_year": 1955
+  },
+  {
+   "id": "bihar",
+   "name": "Bihar",
+   "type": "State/UT",
+   "code": "BR",
+   "first_year": 1947,
+   "last_year": null
+  },
+  {
+   "id": "bilaspur",
+   "name": "Bilaspur",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1953
+  },
+  {
+   "id": "bilaspur-princely-state",
+   "name": "Bilaspur Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "bombay",
+   "name": "Bombay",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1959
+  },
+  {
+   "id": "bombay-province",
+   "name": "Bombay Province",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "central-provinces-berar",
+   "name": "Central Provinces and Berar",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "chandernagore",
+   "name": "Chandernagore",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1953
+  },
+  {
+   "id": "chandigarh-ut",
+   "name": "Chandigarh",
+   "type": "State/UT",
+   "code": "CH",
+   "first_year": 1966,
+   "last_year": null
+  },
+  {
+   "id": "chhattisgarh",
+   "name": "Chhattisgarh",
+   "type": "State/UT",
+   "code": "CG",
+   "first_year": 2000,
+   "last_year": null
+  },
+  {
+   "id": "cochin-princely-state",
+   "name": "Cochin Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "coorg-province",
+   "name": "Coorg Province",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "coorg-state",
+   "name": "Coorg",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1955
+  },
+  {
+   "id": "daman-diu",
+   "name": "Daman and Diu",
+   "type": "State/UT",
+   "code": "DD",
+   "first_year": 1987,
+   "last_year": 2019
+  },
+  {
+   "id": "delhi-ut",
+   "name": "Union Territory of Delhi",
+   "type": "State/UT",
+   "code": "DL",
+   "first_year": 1947,
+   "last_year": 1990
+  },
+  {
+   "id": "dnh",
+   "name": "Dadra and Nagar Haveli",
+   "type": "State/UT",
+   "code": "DN",
+   "first_year": 1961,
+   "last_year": 2019
+  },
+  {
+   "id": "dnhdd",
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "type": "State/UT",
+   "code": "DD",
+   "first_year": 2020,
+   "last_year": null
+  },
+  {
+   "id": "east-punjab",
+   "name": "East Punjab",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "french-india",
+   "name": "French India",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1953
+  },
+  {
+   "id": "goa",
+   "name": "Goa",
+   "type": "State/UT",
+   "code": "GA",
+   "first_year": 1987,
+   "last_year": null
+  },
+  {
+   "id": "goa-daman-diu",
+   "name": "Goa, Daman and Diu",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1961,
+   "last_year": 1986
+  },
+  {
+   "id": "gujarat",
+   "name": "Gujarat",
+   "type": "State/UT",
+   "code": "GJ",
+   "first_year": 1960,
+   "last_year": null
+  },
+  {
+   "id": "haryana",
+   "name": "Haryana",
+   "type": "State/UT",
+   "code": "HR",
+   "first_year": 1966,
+   "last_year": null
+  },
+  {
+   "id": "himachal-pradesh",
+   "name": "Himachal Pradesh",
+   "type": "State/UT",
+   "code": "HP",
+   "first_year": 1947,
+   "last_year": null
+  },
+  {
+   "id": "hyderabad-princely-state",
+   "name": "Hyderabad Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1947
+  },
+  {
+   "id": "hyderabad-state",
+   "name": "Hyderabad",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1948,
+   "last_year": 1955
+  },
+  {
+   "id": "jammu-kashmir",
+   "name": "Jammu and Kashmir",
+   "type": "State/UT",
+   "code": "JK",
+   "first_year": 1952,
+   "last_year": null
+  },
+  {
+   "id": "jammu-kashmir-princely-state",
+   "name": "Jammu and Kashmir Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1951
+  },
+  {
+   "id": "jharkhand",
+   "name": "Jharkhand",
+   "type": "State/UT",
+   "code": "JH",
+   "first_year": 2000,
+   "last_year": null
+  },
+  {
+   "id": "karnataka",
+   "name": "Karnataka",
+   "type": "State/UT",
+   "code": "KA",
+   "first_year": 1973,
+   "last_year": null
+  },
+  {
+   "id": "kerala",
+   "name": "Kerala",
+   "type": "State/UT",
+   "code": "KL",
+   "first_year": 1956,
+   "last_year": 2025
+  },
+  {
+   "id": "keralam",
+   "name": "Keralam",
+   "type": "State/UT",
+   "code": "KL",
+   "first_year": 2026,
+   "last_year": null
+  },
+  {
+   "id": "kutch",
+   "name": "Kutch",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1955
+  },
+  {
+   "id": "laccadive-minicoy-amindivi",
+   "name": "Laccadive, Minicoy and Amindivi Islands",
+   "type": "State/UT",
+   "code": "LD",
+   "first_year": 1956,
+   "last_year": 1972
+  },
+  {
+   "id": "ladakh",
+   "name": "Ladakh",
+   "type": "State/UT",
+   "code": "LA",
+   "first_year": 2019,
+   "last_year": null
+  },
+  {
+   "id": "lakshadweep",
+   "name": "Lakshadweep",
+   "type": "State/UT",
+   "code": "LD",
+   "first_year": 1973,
+   "last_year": null
+  },
+  {
+   "id": "madhya-bharat",
+   "name": "Madhya Bharat",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1955
+  },
+  {
+   "id": "madhya-pradesh",
+   "name": "Madhya Pradesh",
+   "type": "State/UT",
+   "code": "MP",
+   "first_year": 1950,
+   "last_year": null
+  },
+  {
+   "id": "madras",
+   "name": "Madras",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1968
+  },
+  {
+   "id": "madras-province",
+   "name": "Madras Province",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "maharashtra",
+   "name": "Maharashtra",
+   "type": "State/UT",
+   "code": "MH",
+   "first_year": 1960,
+   "last_year": null
+  },
+  {
+   "id": "manipur",
+   "name": "Manipur",
+   "type": "State/UT",
+   "code": "MN",
+   "first_year": 1949,
+   "last_year": null
+  },
+  {
+   "id": "manipur-princely-state",
+   "name": "Manipur Kingdom",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "meghalaya",
+   "name": "Meghalaya",
+   "type": "State/UT",
+   "code": "ML",
+   "first_year": 1972,
+   "last_year": null
+  },
+  {
+   "id": "mizoram",
+   "name": "Mizoram",
+   "type": "State/UT",
+   "code": "MZ",
+   "first_year": 1972,
+   "last_year": null
+  },
+  {
+   "id": "mysore",
+   "name": "Mysore",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1972
+  },
+  {
+   "id": "mysore-princely-state",
+   "name": "Mysore Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "nagaland",
+   "name": "Nagaland",
+   "type": "State/UT",
+   "code": "NL",
+   "first_year": 1963,
+   "last_year": null
+  },
+  {
+   "id": "nct-delhi",
+   "name": "NCT of Delhi",
+   "type": "State/UT",
+   "code": "DL",
+   "first_year": 1991,
+   "last_year": null
+  },
+  {
+   "id": "nefa",
+   "name": "North-East Frontier Agency",
+   "type": "",
+   "code": null,
+   "first_year": 1961,
+   "last_year": 1971
+  },
+  {
+   "id": "odisha",
+   "name": "Odisha",
+   "type": "State/UT",
+   "code": "OD",
+   "first_year": 2011,
+   "last_year": null
+  },
+  {
+   "id": "orissa",
+   "name": "Orissa",
+   "type": "State/UT",
+   "code": "OR",
+   "first_year": 1947,
+   "last_year": 2010
+  },
+  {
+   "id": "pepsu",
+   "name": "Patiala and Eastern Punjab States Union",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1955
+  },
+  {
+   "id": "pondicherry",
+   "name": "Pondicherry",
+   "type": "State/UT",
+   "code": "PY",
+   "first_year": 1954,
+   "last_year": 2005
+  },
+  {
+   "id": "portuguese-india",
+   "name": "Portuguese India",
+   "type": "Province",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1960
+  },
+  {
+   "id": "puducherry",
+   "name": "Puducherry",
+   "type": "State/UT",
+   "code": "PY",
+   "first_year": 2006,
+   "last_year": null
+  },
+  {
+   "id": "punjab",
+   "name": "Punjab",
+   "type": "State/UT",
+   "code": "PB",
+   "first_year": 1950,
+   "last_year": null
+  },
+  {
+   "id": "rajasthan",
+   "name": "Rajasthan",
+   "type": "State/UT",
+   "code": "RJ",
+   "first_year": 1949,
+   "last_year": null
+  },
+  {
+   "id": "rajputana-agency",
+   "name": "Rajputana Agency",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "saurashtra",
+   "name": "Saurashtra",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1955
+  },
+  {
+   "id": "sikkim",
+   "name": "Sikkim",
+   "type": "State/UT",
+   "code": "SK",
+   "first_year": 1975,
+   "last_year": null
+  },
+  {
+   "id": "sikkim-kingdom",
+   "name": "Kingdom of Sikkim",
+   "type": "",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1974
+  },
+  {
+   "id": "tamil-nadu",
+   "name": "Tamil Nadu",
+   "type": "State/UT",
+   "code": "TN",
+   "first_year": 1969,
+   "last_year": null
+  },
+  {
+   "id": "telangana",
+   "name": "Telangana",
+   "type": "State/UT",
+   "code": "TG",
+   "first_year": 2014,
+   "last_year": null
+  },
+  {
+   "id": "travancore-cochin",
+   "name": "Travancore-Cochin",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1949,
+   "last_year": 1955
+  },
+  {
+   "id": "travancore-princely-state",
+   "name": "Travancore Princely State",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "tripura",
+   "name": "Tripura",
+   "type": "State/UT",
+   "code": "TR",
+   "first_year": 1949,
+   "last_year": null
+  },
+  {
+   "id": "tripuri-kingdom",
+   "name": "Kingdom of Tripuri",
+   "type": "Princely State",
+   "code": null,
+   "first_year": 1947,
+   "last_year": 1948
+  },
+  {
+   "id": "united-provinces",
+   "name": "United Provinces",
+   "type": "Province",
+   "code": "UP",
+   "first_year": 1947,
+   "last_year": 1949
+  },
+  {
+   "id": "uttar-pradesh",
+   "name": "Uttar Pradesh",
+   "type": "State/UT",
+   "code": "UP",
+   "first_year": 1950,
+   "last_year": null
+  },
+  {
+   "id": "uttarakhand",
+   "name": "Uttarakhand",
+   "type": "State/UT",
+   "code": "UK",
+   "first_year": 2007,
+   "last_year": null
+  },
+  {
+   "id": "uttaranchal",
+   "name": "Uttaranchal",
+   "type": "State/UT",
+   "code": "UK",
+   "first_year": 2000,
+   "last_year": 2006
+  },
+  {
+   "id": "vindhya-pradesh",
+   "name": "Vindhya Pradesh",
+   "type": "State/UT",
+   "code": null,
+   "first_year": 1950,
+   "last_year": 1955
+  },
+  {
+   "id": "west-bengal",
+   "name": "West Bengal",
+   "type": "State/UT",
+   "code": "WB",
+   "first_year": 1947,
+   "last_year": null
+  }
+ ],
+ "parent": {
+  "ajmer": "ajmer-merwara",
+  "andhra": "madras",
+  "andhra-pradesh": "andhra",
+  "arunachal-pradesh": "assam",
+  "bhopal-state": "bhopal-princely-state",
+  "bilaspur": "bilaspur-princely-state",
+  "bombay": "bombay-province",
+  "chandigarh-ut": "punjab",
+  "chhattisgarh": "madhya-pradesh",
+  "coorg-state": "coorg-province",
+  "daman-diu": "goa-daman-diu",
+  "dnh": "portuguese-india",
+  "dnhdd": "dnh",
+  "goa": "goa-daman-diu",
+  "goa-daman-diu": "portuguese-india",
+  "gujarat": "bombay",
+  "haryana": "punjab",
+  "hyderabad-state": "hyderabad-princely-state",
+  "jammu-kashmir": "jammu-kashmir-princely-state",
+  "jharkhand": "bihar",
+  "karnataka": "mysore",
+  "kerala": "travancore-cochin",
+  "keralam": "kerala",
+  "laccadive-minicoy-amindivi": "madras",
+  "ladakh": "jammu-kashmir",
+  "lakshadweep": "laccadive-minicoy-amindivi",
+  "madhya-pradesh": "central-provinces-berar",
+  "madras": "madras-province",
+  "maharashtra": "bombay",
+  "manipur": "manipur-princely-state",
+  "meghalaya": "assam",
+  "mizoram": "assam",
+  "mysore": "mysore-princely-state",
+  "nagaland": "assam",
+  "nct-delhi": "delhi-ut",
+  "odisha": "orissa",
+  "pondicherry": "french-india",
+  "puducherry": "pondicherry",
+  "punjab": "east-punjab",
+  "rajasthan": "rajputana-agency",
+  "sikkim": "sikkim-kingdom",
+  "tamil-nadu": "madras",
+  "telangana": "andhra-pradesh",
+  "travancore-cochin": "travancore-princely-state",
+  "tripura": "tripuri-kingdom",
+  "uttar-pradesh": "united-provinces",
+  "uttarakhand": "uttaranchal",
+  "uttaranchal": "uttar-pradesh",
+  "vindhya-pradesh": "baghelkhand-bundelkhand"
+ },
+ "parent_before": {
+  "telangana": {
+   "until": 1955,
+   "parent": "hyderabad-state"
+  }
+ },
+ "renamed_from": {
+  "keralam": "kerala",
+  "odisha": "orissa",
+  "uttarakhand": "uttaranchal",
+  "puducherry": "pondicherry",
+  "arunachal-pradesh": "nefa"
+ },
+ "merges": [
+  {
+   "into": "dnhdd",
+   "members": [
+    "dnh",
+    "daman-diu"
+   ],
+   "from_year": 2020,
+   "population_share_2011": {
+    "dnh": 0.585579,
+    "daman-diu": 0.414421
+   }
+  }
+ ],
+ "aliases": {
+  "a and n islands": "andaman-nicobar",
+  "all india": "india",
+  "all states and uts": "india",
+  "andaman and nicobar": "andaman-nicobar",
+  "andaman and nicobar island": "andaman-nicobar",
+  "andaman and nicobar islands": "andaman-nicobar",
+  "andaman and nicober islands": "andaman-nicobar",
+  "andaman nicobar": "andaman-nicobar",
+  "andhra pradesh": "andhra-pradesh",
+  "arunachal": "arunachal-pradesh",
+  "arunachal pradesh": "arunachal-pradesh",
+  "arunanchal pradesh": "arunachal-pradesh",
+  "assam": "assam",
+  "bihar": "bihar",
+  "bombay": "maharashtra",
+  "chandigarh": "chandigarh-ut",
+  "chandigarh ut": "chandigarh-ut",
+  "chattisgarh": "chhattisgarh",
+  "chhatisgarh": "chhattisgarh",
+  "chhattisgarh": "chhattisgarh",
+  "d and n haveli": "dnh",
+  "d and n haveli and daman and diu": "dnhdd",
+  "dadara and nagar havelli": "dnh",
+  "dadra and nagar haveli": "dnh",
+  "dadra and nagar haveli and daman and diu": "dnhdd",
+  "dadra and nagar havelli": "dnh",
+  "daman and diu": "daman-diu",
+  "daman and diu and dadra and nagar haveli": "dnhdd",
+  "daman and diu and dadra nagar haveli": "dnhdd",
+  "daman diu": "daman-diu",
+  "delhi": "nct-delhi",
+  "dnh": "dnh",
+  "dnh and daman and diu": "dnhdd",
+  "dnhdd": "dnhdd",
+  "goa": "goa",
+  "gujarat": "gujarat",
+  "haryana": "haryana",
+  "himachal": "himachal-pradesh",
+  "himachal pradesh": "himachal-pradesh",
+  "india": "india",
+  "india total": "india",
+  "india total official in table": "india",
+  "j and k": "jammu-kashmir",
+  "jammu and kashmir": "jammu-kashmir",
+  "jammu and kashmir and ladakh": "jammu-kashmir",
+  "jammu and kashmir incl ladakh till 2018": "jammu-kashmir",
+  "jammu and kashmir ut": "jammu-kashmir",
+  "jammu kashmir": "jammu-kashmir",
+  "jharkhand": "jharkhand",
+  "karnataka": "karnataka",
+  "kerala": "keralam",
+  "keralam": "keralam",
+  "ladakh": "ladakh",
+  "lakshadweep": "lakshadweep",
+  "madhya pradesh": "madhya-pradesh",
+  "madras": "tamil-nadu",
+  "maharashtra": "maharashtra",
+  "maharastra": "maharashtra",
+  "manipur": "manipur",
+  "meghalaya": "meghalaya",
+  "mizoram": "mizoram",
+  "mysore": "karnataka",
+  "nagaland": "nagaland",
+  "national": "india",
+  "nct delhi": "nct-delhi",
+  "nct of delhi": "nct-delhi",
+  "new delhi": "nct-delhi",
+  "odisha": "odisha",
+  "odissa": "odisha",
+  "orissa": "odisha",
+  "pondicherry": "puducherry",
+  "puducherry": "puducherry",
+  "puducherry pondicherry": "puducherry",
+  "punjab": "punjab",
+  "rajasthan": "rajasthan",
+  "sikkim": "sikkim",
+  "tamil nadu": "tamil-nadu",
+  "tamilnadu": "tamil-nadu",
+  "telangana": "telangana",
+  "telengana": "telangana",
+  "tripura": "tripura",
+  "uttar pradesh": "uttar-pradesh",
+  "uttarakhand": "uttarakhand",
+  "uttaranchal": "uttarakhand",
+  "uttrakhand": "uttarakhand",
+  "west bengal": "west-bengal",
+  "westbengal": "west-bengal"
+ }
+}

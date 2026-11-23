@@ -1,0 +1,27 @@
+{
+  "name": "india-regions",
+  "version": "0.1.0",
+  "description": "India's states and districts through time: which existed in which year, LGD/Census codes, and matching for messy or misspelt names.",
+  "main": "js/index.js",
+  "types": "js/index.d.ts",
+  "files": [
+    "js/",
+    "src/india_regions/data/*.json",
+    "LICENSE",
+    "DATA_LICENSE.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/test_cases.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["india", "states", "districts", "lgd", "census", "geography", "data-cleaning", "fuzzy-matching"],
+  "author": "TheMapsDaily",
+  "license": "MIT",
+  "homepage": "https://themapsdaily.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themapsdaily/india-regions.git"
+  }
+}

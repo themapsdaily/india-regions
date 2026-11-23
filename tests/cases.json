@@ -1,0 +1,74 @@
+{
+ "_doc": "Hand-written expectations, run by both tests/test_cases.py and tests/test_cases.mjs. null means no answer.",
+ "normalize_state": [
+  ["Orissa", "odisha"], ["ODISHA #", "odisha"], ["Telengana", "telangana"],
+  ["Chattisgarh", "chhattisgarh"], ["Maharastra", "maharashtra"],
+  ["Andaman and Nicober Islands", "andaman-nicobar"], ["Delhi (NCT)", "nct-delhi"],
+  ["NCT of Delhi", "nct-delhi"], ["Chandigarh (UT)", "chandigarh-ut"], ["Ladakh @", "ladakh"],
+  ["Jammu & Kashmir", "jammu-kashmir"], ["Dadra and Nagar Haveli and Daman and Diu", "dnhdd"],
+  ["Pondicherry", "puducherry"], ["Uttaranchal", "uttarakhand"], ["Kerala", "keralam"],
+  ["TamilNadu", "tamil-nadu"], ["UP", "uttar-pradesh"], ["WB", "west-bengal"],
+  ["All India", "india"], ["Total", null], ["Grand Total", null], ["", null], ["Narnia", null]
+ ],
+ "match_state": [
+  ["Utter Pradesh", "uttar-pradesh"], ["Chhatisgarh", "chhattisgarh"], ["Meghalya", "meghalaya"],
+  ["Arunachal Pradseh", "arunachal-pradesh"], ["Total", null], ["West", null]
+ ],
+ "resolve_state_for_year": [
+  ["odisha", 1998, "orissa"], ["odisha", 2011, "odisha"], ["odisha", "2010-11", "orissa"],
+  ["uttarakhand", 1995, "uttar-pradesh"], ["uttarakhand", 2003, "uttaranchal"],
+  ["telangana", 2010, "andhra-pradesh"], ["telangana", 1950, "hyderabad-state"],
+  ["jharkhand", 1990, "bihar"], ["ladakh", 2018, "jammu-kashmir"], ["dnh", 2021, "dnhdd"],
+  ["daman-diu", 2035, "dnhdd"], ["dnhdd", 2015, "dnh"], ["keralam", 2018, "kerala"],
+  ["karnataka", 1965, "mysore"], ["tamil-nadu", 1960, "madras"], ["goa", 1975, "goa-daman-diu"],
+  ["bombay", 1975, null], ["haryana", 1960, "punjab"], ["mizoram", 1960, "assam"],
+  ["nowhere", 2000, null], ["odisha", null, null]
+ ],
+ "origin_state": [
+  ["uttarakhand", "uttar-pradesh"], ["telangana", "andhra-pradesh"], ["odisha", "orissa"],
+  ["chhattisgarh", "madhya-pradesh"], ["assam", "assam"]
+ ],
+ "era_state_id": [
+  ["keralam", 2018, "kerala"], ["keralam", 2026, "keralam"], ["chhattisgarh", 1998, "chhattisgarh"],
+  ["odisha", 2005, "orissa"]
+ ],
+ "merge_group": [["dnh", 2021, "dnhdd"], ["daman-diu", 2020, "dnhdd"], ["dnh", 2015, null], ["goa", 2021, null]],
+ "normalize_region": [["Orissa", 1998, "orissa"], ["Uttarakhand", 1995, "uttar-pradesh"], ["Kerala", 2030, "keralam"], ["Narnia", 2000, null]],
+ "match_district": [
+  ["Gurgaon", "Haryana", 2010, "gurgaon-district"],
+  ["Gurgaon", "Haryana", 2020, "gurugram-district"],
+  ["Gurugram", "Haryana", 2010, "gurgaon-district"],
+  ["Allahabad", "UP", 2020, "prayagraj-district"],
+  ["Aurangabad", null, null, null],
+  ["Aurangabad", "Bihar", null, "aurangabad-br-district"],
+  ["Aurangabad", "Maharashtra", 2015, "aurangabad-mh-district"],
+  ["Thoothukudi", "Tamil Nadu", null, "thoothukkudi-district"],
+  ["Tiruvallur", "TN", null, "thiruvallur-district"],
+  ["Kaimur (Bhabua)", "Bihar", null, "kaimur-bhabua-district"],
+  ["Kaimur", "Bihar", null, "kaimur-bhabua-district"],
+  ["Sri Ganganagar", "Rajasthan", null, "ganganagar-district"],
+  ["East Medinipur", "West Bengal", null, "purba-medinipur-district"],
+  ["North Dinajpur", "West Bengal", null, "uttar-dinajpur-district"],
+  ["Hazaribag", "Jharkhand", null, "hazaribagh-district"],
+  ["Mahabubnagar", "Telangana", 2012, "mahabubnagar-district"],
+  ["Leh", "Ladakh", 2020, "leh-district"],
+  ["Garo Hills", "Meghalaya", 2020, "west-garo-hills-district"],
+  ["Bangalore Rural", "Karnataka", 2010, "bangalore-rural-district"],
+  ["Bangalore Urban", "Karnataka", null, null],
+  ["Nicobar", null, null, "nicobars-district"],
+  ["Hapur", "Uttar Pradesh", 2012, "hapur-district"],
+  ["Narnia", null, null, null]
+ ],
+ "district_for_year": [
+  ["gurugram-district", 1990, ["gurgaon-district"]],
+  ["allahabad-district", 2022, ["prayagraj-district"]],
+  ["prayagraj-district", 2000, ["allahabad-district"]],
+  ["hapur-district", 2005, ["ghaziabad-district"]],
+  ["gurgaon-district", 2020, ["gurugram-district"]],
+  ["nowhere-district", 2000, []]
+ ],
+ "district_by_lgd": [["501", "adilabad-district"], [501, "adilabad-district"], ["0", null]],
+ "district_by_census2011": [["532", "adilabad-district"], ["0532", "adilabad-district"], ["x", null]],
+ "similarity_zero": [["Garo Hills", "West Garo Hills"], ["Bangalore Urban", "Bangalore Rural"], ["Delhi", "New Delhi"]],
+ "counts": {"states_in_2026": 36, "states_in_1950_min": 25}
+}
