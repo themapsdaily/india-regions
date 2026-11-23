@@ -1,6 +1,6 @@
 {
   "name": "india-regions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "India's states and districts through time: which existed in which year, LGD/Census codes, and matching for messy or misspelt names.",
   "main": "js/index.js",
   "types": "js/index.d.ts",

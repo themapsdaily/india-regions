@@ -47,4 +47,4 @@ from ._core import (  # noqa: F401
     states_in_year,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
